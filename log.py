@@ -1,6 +1,7 @@
 import logging
 
 logger = logging.getLogger()
+
 logger.setLevel(logging.INFO)
 hdlr = logging.StreamHandler()
 formatter = logging.Formatter('%(asctime)s %(levelname)s %(message)s')
